@@ -4,18 +4,11 @@ An implementation and experimental study of Google's **PageRank algorithm**, exp
 
 ## Overview
 
-This repository contains multiple implementations and experiments investigating how PageRank behaves under different settings, including:
+This repository presents a comprehensive study of Google's **PageRank algorithm**, covering its mathematical foundations, efficient implementation, empirical evaluation, and modern machine learning applications.
 
-- Sparse matrix implementations
-- Convergence analysis
-- Scaling behaviour
-- Effect of teleportation (damping factor)
-- Spectral analysis of reducible Markov chains
-- Initialization strategy comparisons
-- Visualization of convergence
+Beginning from graph representations and Markov chains, the project derives the Google Matrix, implements PageRank using sparse linear algebra and power iteration, analyzes convergence behaviour, and evaluates computational performance on different graph structures.
 
-The project was completed as part of coursework exploring numerical linear algebra and stochastic processes.
-
+Beyond classical PageRank, the project explores **Personalized PageRank**, **graph kernels**, and **PageRank-based node embeddings**, demonstrating how PageRank can be used as a structural representation learning technique for downstream machine learning tasks.
 ---
 
 ## Repository Structure
@@ -34,29 +27,55 @@ The project was completed as part of coursework exploring numerical linear algeb
 
 ---
 
-## Experiments
+## Repository Highlights
 
-The notebooks investigate several important properties of PageRank:
+The repository investigates several theoretical and practical aspects of PageRank, including:
 
-- Sparse matrix implementation for efficiency
-- Convergence speed under different damping factors
-- Effect of teleportation on reducible graphs
-- Scaling behaviour as graph size increases
-- Influence of different initialization vectors
-- Spectral properties of transition matrices
-- Visualizations of convergence dynamics
+- Mathematical derivation of the PageRank algorithm
+- Random surfer interpretation
+- Spectral properties of stochastic matrices
+- Handling dangling nodes and rank sinks
+- Effect of damping factor on convergence
+- Sparse implementations for large graphs
+- Performance and memory benchmarking
+- Personalized PageRank
+- Construction of graph kernels from PageRank diffusion
+- Learning node representations using PageRank embeddings
+
+---
+
+## Features
+
+- Classical PageRank implementation
+- Sparse matrix implementation for scalability
+- Google Matrix construction
+- Power Iteration solver
+- Personalized PageRank
+- Convergence analysis
+- Spectral analysis of reducible Markov chains
+- Computational complexity analysis
+- Memory usage benchmarking
+- Graph topology experiments
+- PageRank score distribution analysis
+- Graph kernels based on diffusion profiles
+- PageRank-based node embeddings
 
 ---
 
 ## Topics Covered
 
+- Graph Theory
+- Linear Algebra
 - Markov Chains
-- Eigenvalue Problems
-- Power Iteration
+- Spectral Graph Theory
 - Sparse Linear Algebra
-- Graph Algorithms
-- Numerical Linear Algebra
-- Google's PageRank Algorithm
+- Numerical Methods
+- Random Walks
+- Eigenvalue Problems
+- Personalized PageRank
+- Graph Kernels
+- Representation Learning
+- Node Embeddings
 
 ---
 
@@ -85,8 +104,6 @@ Potential extensions include:
 - GPU acceleration
 - Comparison with NetworkX implementation
 - Large real-world graph datasets
-
----
 
 ---
 
