@@ -95,18 +95,6 @@ The repository also includes a written report (`LAA_Report.pdf`) describing the 
 
 ---
 
-## Future Improvements
-
-Potential extensions include:
-
-- Personalized PageRank
-- Parallel implementations
-- GPU acceleration
-- Comparison with NetworkX implementation
-- Large real-world graph datasets
-
----
-
 ## Collaborators
 
 This project was completed collaboratively by:
